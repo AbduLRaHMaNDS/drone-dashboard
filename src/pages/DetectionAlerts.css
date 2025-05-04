@@ -1,0 +1,131 @@
+.alert-page {
+    background: transparent;
+    color: #d4f4c3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .top-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    max-width: 1000px;
+  }
+  
+  .sensor-panel,
+  .camera-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #222;
+    border: 2px solid #0f0;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  .sensor-header,
+  .camera-header {
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #0f0;
+    color: #111;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  
+  .sensor-values {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .sensor-values p {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #0f0;
+  }
+  
+  .camera-feed {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    border: 2px solid #0f0;
+    border-radius: 8px;
+  }
+  
+  .control-panel {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 1000px;
+  }
+  
+  .control-panel span {
+    color: #0f0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .send-button,
+  .hold-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+  }
+  
+  .send-button {
+    background-color: #00cc00;
+    color: #000;
+  }
+  
+  .hold-button {
+    background-color: #cc0000;
+    color: #fff;
+  }
+  
+  .send-button:hover,
+  .hold-button:hover {
+    transform: scale(1.05);
+  }
+  
+  .camera-toggle {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .camera-toggle button {
+    background-color: black;
+    color: limegreen;
+    border: 2px solid limegreen;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+  
+  .camera-toggle button.active {
+    background-color: limegreen;
+    color: black;
+  }
+  
