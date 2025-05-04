@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import logo from '/home/abdulrahman/Desktop/drone-dashboard/src/assets/logo.png'; // adjust path if needed
+import logo from './assets/logo.png'; // adjust path if needed
 
 const Navbar = () => {
   return (
