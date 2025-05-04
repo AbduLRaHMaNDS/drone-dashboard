@@ -10,7 +10,7 @@ const DetectionAlerts = () => {
     label: "none"
   });
 
-  const baseURL = "http://192.168.137.20:10000";
+  const baseURL = "https://drone-backend.onrender.com";
 
   useEffect(() => {
     const fetchMetrics = async () => {
